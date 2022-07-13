@@ -16,6 +16,9 @@ const ArticleList:React.FC<ArticleItem> = (props) => {
                     <a className="user-message">
 
                     </a>
+                    <div className="date">
+
+                    </div>
                 </div>
                 <div className="main">
                     <div className="info-box">
