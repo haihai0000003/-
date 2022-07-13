@@ -1,0 +1,23 @@
+.articleItem {
+    .advertisement {
+        position: relative;
+        cursor: pointer;
+        padding: 12px 20px 0;
+        .meta-container {
+            display: flex;
+            align-items: center;
+        }
+        .main {
+            display: flex;
+            .info-box {
+                flex: 1;
+            }
+            .thumb {
+                width: 120px;
+                height: 80px;
+                margin-left: 24px;
+                border-radius: 2px;
+            }
+        }
+    }
+}

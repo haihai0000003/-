@@ -1,0 +1,26 @@
+.list-header {
+    padding: 1.3rem 1rem;
+    border-bottom: 1px solid var(--head-borderBot-color);
+    .list-nav {
+        display: flex;
+        justify-content: space-between;
+        .nav-list {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            line-height: 1;
+            .nav-item {
+                padding: 0 1.2rem;
+                border-right: 1px solid var(--head-borderRt-color);
+            }
+            .active {
+                a {
+                    color : #096dd9;
+                }
+            }
+            .nav-item:last-child {
+                border-right:none;
+            }
+        }
+    }
+}

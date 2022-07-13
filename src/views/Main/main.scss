@@ -1,0 +1,27 @@
+.main-container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    position: relative;
+    .search-view {
+        margin-top: 6.5rem;
+        width: 960px;
+        .search-list {
+            max-width: 700px;
+            margin-top: 60px;
+            width: 100%;
+            background-color: var(--bg-color-t);
+            box-shadow: 0 1px 2px 0 rgb(0 0 0 / 5%);
+            height: 1000px;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .main-container {
+        .search-view {
+            margin-top: 5.2rem;
+            width: 100%;
+        }
+    }
+}
